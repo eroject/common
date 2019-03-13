@@ -4,6 +4,11 @@
   "scripts": {
     "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
   },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  },
   "author": "Jiahua.Zhang",
   "license": "ISC",
   "devDependencies": {
